@@ -48,6 +48,7 @@ export default function VideoPlayList() {
   const index = React.useRef(0);
   const isSeeking = React.useRef(false);
   const shouldPlayAtEndOfSeek = React.useRef(false);
+  const shouldPlayAtEndOfSeek2 = React.useRef(false);
 
   const playbackInstance = React.useRef(null);
 
